@@ -1,0 +1,26 @@
+#include<stdio.h>
+main()
+{
+	int s, i;
+	int d[11] = { 10,5,30,77,16,3,47,29,37,33 };
+
+	for (i = 0; i < 10; i++)
+	{
+		printf("%02d", d[i]);
+	}
+	 printf("íTçıílsÇì¸óÕ:");
+	 scanf("%d", &s);
+	 i = 0;
+	 while (s != d[i])
+	 {
+		 i++;
+	 }
+	 if (i >= 10)
+	 {
+		printf("å©Ç¬Ç©ÇÁÇ»Ç©Ç¡ÇΩ\n");
+	 }
+	else 
+	{
+		 printf("íTçıíld[%d]Ç≈î≠å©ÅI\n", i);
+	}
+}
